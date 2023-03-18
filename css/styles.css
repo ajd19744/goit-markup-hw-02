@@ -1,9 +1,8 @@
 /** ==========general========== */
-
 :root {
   --main-color-text-background: #2e2f42;
   --background-and-text-footer: #f4f4fd;
-  --primary-text-color: #434455;
+  --prymary-text-color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
