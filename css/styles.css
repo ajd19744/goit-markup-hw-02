@@ -177,47 +177,18 @@ body {
   background-color: #404bbf;
 }
 
-/** ===========section row 1=========== */
+/** ===========section row=========== */
 
-.row-first-title-down {
+.row-title-down {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color-text-background, #2e2f42);
 }
-.row-first-text {
+.row-text {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-
-/** ===========section row 2=========== */
-
-.row-second-title-down {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-color-text-background, #2e2f42);
-}
-.row-second-text {
-  font-size: 16px;
-  line-height: 1.5x;
-  letter-spacing: 0.02em;
-}
-
-/** ===========section row 3=========== */
-
-.row-third-title-down {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-color-text-background, #2e2f42);
-}
-.row-third-text {
-  font-size: 16px;
-  line-height: 1.5x;
-  letter-spacing: 0.02em;
+  color: var(--prymary-text-color, #434455);
 }
