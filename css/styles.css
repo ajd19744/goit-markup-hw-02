@@ -3,11 +3,14 @@
   --main-color-text-background: #2e2f42;
   --background-and-text-footer: #f4f4fd;
   --prymary-text-color: #434455;
+  --background-and-hero-text: #ffffff;
+  --button-logo-color: #4d5ae5;
+  --button-touch-color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color, #434455);
-  background-color: #ffffff;
+  background-color: var(--background-and-hero-text, #ffffff);
 }
 .list {
   list-style: none;
@@ -27,7 +30,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--button-logo-color, #4d5ae5);
 }
 .logo-studio {
   color: var(--main-color-text-background, #2e2f42);
@@ -40,7 +43,7 @@ body {
   color: var(--main-color-text-background, #2e2f42);
 }
 .header-link:is(:hover, :focus) {
-  color: #404bbf;
+  color: var(--button-touch-color, #404bbf);
 }
 .header-address {
   font-family: "Roboto", sans-serif;
@@ -51,10 +54,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-text-color, #434455);
 }
 .header-contact:is(:hover, :focus) {
-  color: #404bbf;
+  color: var(--button-touch-color, #404bbf);
 }
 
 /** ===========hero=========== */
@@ -67,7 +70,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--background-and-hero-text, #ffffff);
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -77,12 +80,12 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--background-and-hero-text, #ffffff);
   cursor: pointer;
-  background: #4d5ae5;
+  background: var(--button-logo-color, #4d5ae5);
 }
 .hero-btn:is(:hover, :focus) {
-  background-color: #404bbf;
+  background-color: var(--button-touch-color, #404bbf);
 }
 
 /** ===========advantages=========== */
@@ -125,7 +128,7 @@ body {
   color: var(--main-color-text-background, #2e2f42);
 }
 .team-item {
-  background: #ffffff;
+  background: var(--background-and-hero-text, #ffffff);
 }
 .team-title-down {
   font-weight: 500;
@@ -168,13 +171,13 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--button-logo-color, #4d5ae5);
   cursor: pointer;
   background: var(--background-and-text-footer, #f4f4fd);
 }
 .filters-button:is(:hover, :focus) {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--background-and-hero-text, #ffffff);
+  background-color: var(--button-touch-color, #404bbf);
 }
 
 /** ===========section row=========== */
